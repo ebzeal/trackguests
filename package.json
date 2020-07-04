@@ -1,22 +1,22 @@
 {
   "name": "nodejs-shopping-app",
   "version": "1.0.0",
-  "description": "Complete Node.js Guide",
+  "description": "Track Guests at an event",
   "scripts": {
-    "dev-start": "nodemon --exec babel-node ./index.js --env",
+    "dev": "nodemon --exec babel-node ./index.js --env",
     "build": "rimraf build/* && babel ./ -d build --ignore 'node_modules','coverage' ",
     "start": "node build/index.js",
     "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ebzeal/mock-PL.git"
+    "url": "git+https://github.com/ebzeal/trackguests.git"
   },
   "keywords": [],
   "author": "Olusola Ajayi <ebenezerajayi@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ebzeal/mock-PL/issues"
+    "url": "https://github.com/ebzeal/trackguests/issues"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.4",
